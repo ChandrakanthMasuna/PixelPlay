@@ -1,6 +1,5 @@
 import { SimpleGrid, Text } from "@chakra-ui/react";
 import useGames from "./useGames";
-import { px } from "framer-motion";
 import GameCard from "./GameCard";
 
 const GameGrid = () => {
