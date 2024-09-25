@@ -1,7 +1,6 @@
 import { GameQuery } from "../App";
 import SearchInput from "../components/SearchInput";
 import useData from "./useData";
-import { Genre } from "./useGenres";
 export interface Platform {
   id: number;
   name: string;
@@ -14,6 +13,7 @@ export interface Games {
   background_image: string;
   parent_platforms: { platform: Platform }[];
   metacritic: number;
+  rating_top: number;
 
 }
 
